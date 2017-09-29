@@ -1,0 +1,19 @@
+{
+    "name": "yunmai/osseditor",
+    "description": "oss",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "zbl",
+            "email": "893431929@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "YunMai\\OssUeditor":"src/"
+        }
+    }
+
+}
