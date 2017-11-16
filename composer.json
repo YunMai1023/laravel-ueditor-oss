@@ -12,7 +12,17 @@
     "require": {},
     "autoload": {
         "psr-4": {
-            "YunMai\\OssUeditor":"src/"
+            "YunMai\\OssUeditor\\":"src/"
+        }
+    },
+    "require-dev": {
+        "fabpot/php-cs-fixer": "^1.10"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "YunMai\\OssUeditor\\UEditorServiceProvider"
+            ]
         }
     }
 
